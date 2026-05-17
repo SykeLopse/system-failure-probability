@@ -4,3 +4,6 @@
 
 ## Operational Tracking
 - Continuous 10-day testing window.
+
+## Mathematical Model
+Formula used: P(t) = 1 - e^(-λt)
