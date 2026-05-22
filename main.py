@@ -18,3 +18,6 @@ if __name__ == '__main__':
     print('Time (Hrs) | Failure Prob')
     for t, p in zip(t_data, p_data):
         print(f'{t:<11} | {p:.4f}')
+    plt.figure(figsize=(10, 6))
+    plt.plot(t_data, p_data, marker='o', color='#d32f2f')
+    plt.title(f'Failure Probability Curve (λ = {SYSTEM_FAILURE_RATE})')
