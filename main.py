@@ -21,3 +21,7 @@ if __name__ == '__main__':
     plt.figure(figsize=(10, 6))
     plt.plot(t_data, p_data, marker='o', color='#d32f2f')
     plt.title(f'Failure Probability Curve (λ = {SYSTEM_FAILURE_RATE})')
+    plt.xlabel('Time (Hours)')
+    plt.ylabel('P(t)')
+    plt.grid(True, linestyle='--')
+    plt.show()
