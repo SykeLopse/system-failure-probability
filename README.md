@@ -7,3 +7,7 @@
 
 ## Mathematical Model
 Formula used: P(t) = 1 - e^(-λt)
+
+## Requirements
+Run: `pip install matplotlib`
+Execute with: `python main.py`
